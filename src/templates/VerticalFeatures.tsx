@@ -3,25 +3,25 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="UpdateMate monitors your website so you don't have to."
+    description="That blog post you wrote a year ago? It's time to update it. Get proactive alerts, beautiful charts, and a nice sitemap visualization so you can get back to creating content."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
-    />
-    <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Automated alerts"
+      description="Get notified when it's time to update old content, based on age, traffic decay, and other factors."
       image="/assets/images/feature2.svg"
       imageAlt="Second feature alt text"
+    />
+    <VerticalFeatureRow
+      title="Beautiful SEO charts"
+      description="Let's face it, the charts in Google Search Console suck. UpdateMate displays beautiful and useful charts you can actually send to your boss."
+      image="/assets/images/feature.svg"
+      imageAlt="First feature alt text"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Visual sitemaps"
+      description="Easily visualize how your website is structured."
       image="/assets/images/feature3.svg"
       imageAlt="Third feature alt text"
     />

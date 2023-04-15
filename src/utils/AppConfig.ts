@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
+  site_name: 'UpdateMate',
+  title: 'UpdateMate | Smart SEO Monitoring and Alerting',
+  description: 'The smartest way to keep your website content updated.',
   locale: 'en',
 };

@@ -12,6 +12,8 @@ const Footer = () => (
         logo={<Logo />}
         iconList={
           <>
+            {' '}
+            {/*
             <Link href="/">
               <a>
                 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -67,27 +69,13 @@ const Footer = () => (
                 </svg>
               </a>
             </Link>
+        */}
           </>
         }
       >
         <li>
           <Link href="/">
-            <a>Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Docs</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
+            <a></a>
           </Link>
         </li>
       </CenteredFooter>
