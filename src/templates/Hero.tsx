@@ -29,12 +29,12 @@ const Hero = () => (
         title={
           <>
             <span className="text-primary-500">
-              SEO Monitoring and Alerting{' '}
+              Real-time SEO Monitoring Platform
             </span>
             {/* {'for busy website owners.'} */}
           </>
         }
-        description="Proactive alerts to update your content."
+        description="Prevent rank decay with proactive alerts to update your content."
         button={
           <Link href="">
             <a>
